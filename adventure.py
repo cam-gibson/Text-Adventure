@@ -6,6 +6,7 @@ health = 10
 print(f'Health: {health}')
 first_choice = str(input('Enter "left" or "right" '))
 if first_choice == 'left' or first_choice == 'Left':
+    health -= 1
     print(f'Health: {health}')
     print('You have chosen to take charmander will you fight or run?')
     second_choice = input('Enter "fight" or "run" ')
