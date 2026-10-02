@@ -1,6 +1,6 @@
 # Name: Cameron Gibson
 # Date: 9/30/26
-# Description:
+# Description: Takes you on an adventure with a pokemon chosen at random, there are many ways the story can end you must make wise decisions to win the game.
 
 health = 10
 print(f'Health: {health}')
